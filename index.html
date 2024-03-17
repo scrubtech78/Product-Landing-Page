@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>GrahamTec Audio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous">
+</head>
+
+<body>
+  <header id="header">
+  <div class="logo">
+    <img src="https://img.freepik.com/free-vector/hand-drawn-octopus-silhouette_23-2150606809.jpg?w=1060&t=st=1701200155~exp=1701200755~hmac=6193fe1df34720fe936d2fc529ee99398b4707d11c09753fca97ce123d426515g" alt="pic of octopus logo" id="header-img"width="100" height="100"> <p id="logo-title">GrahamTec_Audio</p>
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#gear">Gear</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+       </header>
+      </nav>
+      
+    <div class="container">
+      <section class="section-1">
+      <h1>Handcrafted Audio Gear</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input 
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required /></input>
+        <input 
+        id="submit"
+        type="submit"
+        value="Get Started"
+        class="btn"></input>
+      </form>
+      </section>
+  </div>
+  <div>
+    <section class="section-2" id="features">
+      <i class="fas fa-magic"                     style="font-size:36"></i>
+      <h2>Customized Gear</h2>
+      <p>GrahamTec_Audio provides a unique opportunity to work with our audio design engineer for a build design that fits your needs.</p>
+      <i class="fas fa-money-bill-wave" style="font-size:36"></i>
+      <h2> Premium Materials</h2>
+      <p>Only the finest qualtity parts are used or manufactured to fit your premium build.</p>
+      <i class="fas fa-battery-full" style="font-size:36"></i><h2> Quality Assuruance</h2>
+      <p>Our gear is tested in a qulaity lab to ensure the highest preformance for your gear's sound. </p>
+    </section>
+  </div>
+  <br>
+  <div>
+    <section id="gear">
+    <iframe  id="video" width="420" height="315" src="https://www.youtube.com/embed/vygDtJlxTng ">
+    </iframe> 
+    </section>
+    </div>
+  <div>
+    <section class="section-3" id="pricing">
+      <div class="custom-gear">
+      <h2>Custom Gear</h2>
+      <ul>
+        <li>Choose your Gear</li>
+        <li>Choose your Parts</li>
+        <li>Choose your color Scheme</li>
+        </ul>
+        <button
+        class="select-btn">
+        Select</button>
+        </div>
+     <div class="rebuilds"> 
+      <h2>Rebuilds</h2>
+      <ul>
+        <li>Replace parts</li>
+        <li>Upgrade parts</li>
+        <li>Troubleshoot problems</li>
+      </ul>
+      <button
+        class="select-btn">
+        Select</button>
+        </div>
+      <div class="parts">
+      <h2>Parts</h2>
+      <ul>
+        <li>Purchase parts</li>
+      </ul>
+      <button
+        class="select-btn" id="last-btn">
+        Select</button>
+        </div>
+        
+    </section>
+    </div> 
+    <footer>
+      <div class="footer">
+        <span>Copyright 2024, GrahamTec_Audio</span>
+        <img src="https://img.freepik.com/free-vector/hand-drawn-octopus-silhouette_23-2150606809.jpg?w=1060&t=st=1701200155~exp=1701200755~hmac=6193fe1df34720fe936d2fc529ee99398b4707d11c09753fca97ce123d426515g" alt="pic of octopus logo" width="25" heigth="25" id="footer-image">
+      </div>
+    </footer>
+    
+    
+    
+  
+</body>
+
+</html>
+<style>
+body{
+  font-family: sans-serif;
+  color: blue;
+}
+.logo{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  align-items: center;
+  
+  
+  
+}
+#logo-title {
+  background-color: white;
+}  
+
+  
+ 
+
+#nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40vw;
+  list-style-type: none;
+  padding: 0 70%;
+}
+  @media screen and (max-width: 600px){
+    iframe {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+@media screen and (max-width: 300px){
+  h2 p{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+li {
+  background-color: white;
+  
+}
+  
+
+ li:hover{
+  background-color: grey;
+ } 
+ .btn{
+   background-color: orange;
+ } 
+  
+ 
+#header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  min-height: 70px;
+  padding: 0 30;
+  background-color: white;
+  height: 35px;
+  
+  
+}
+
+  
+
+  
+
+.section-1{
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+h1{
+  color: green;
+}
+.container, section-1{
+  display: flex;
+  flex-direction: column;
+  height: 200;
+   
+}  
+.section-2{
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+}  
+h2, p{
+  color: black;
+  margin-left: 15%;
+  
+  
+  
+}
+p{
+  margin-top: 0;
+}
+h2{
+  margin-bottom: 0;
+  margin-top: 10;
+}  
+   
+
+iframe { 
+  display: flex;
+  padding: 5%;
+  margin-left: 20%; 
+  border: none;
+  
+}  
+.section-3{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-bottom: 30px;
+  
+  
+  
+  
+  
+}
+ .custom-gear{
+   border: solid black;
+   padding: 20px;
+ } 
+ .rebuilds{
+   border: solid black;
+   padding: 20px;
+ } 
+.parts{
+  border: solid  black;
+  padding: 20px;
+}
+ .select-btn{
+   margin-left: 35%;
+   background-color: orange;
+ } 
+#last-btn{
+  margin-top: 36px;
+}
+ .footer{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+}
+</style>
